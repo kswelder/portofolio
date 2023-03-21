@@ -1,0 +1,84 @@
+body {
+    display: flexbox;
+    margin: auto;
+    justify-content: center;
+}
+header {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    justify-content: center;
+    margin: auto;
+    display: grid;
+}
+header div {
+    float: left;
+}
+header div img {
+    width: 40px;
+}
+#header-navegation ul {
+    display: block;
+    list-style-type: none;
+}
+#header-navegation ul li {
+    float: left;
+    padding: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    transition: 300ms;
+    border-top: 1px solid rgb(95, 95, 95) ;
+    border-left: 1px solid rgb(95, 95, 95) ;
+    border-right: 4px solid rgb(95, 95, 95) ;
+    border-bottom: 4px solid rgb(95, 95, 95) ;
+}
+#header-navegation ul li:hover {
+    margin-top: 2px;
+    margin-left: 4px;
+    background-color: rgba(0, 0, 0, 0.596);
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#header-navegation ul li:hover a {
+    color: white;
+}
+#header-navegation ul li a {
+    color: black;
+    text-decoration: none;
+}
+main {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: grid;
+    justify-content: center;
+}
+footer {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.288);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+footer div {
+    display: grid;
+    text-align: center;
+}
+#social-icons {
+    display: block;
+    justify-content: center;
+}
+#social-icons div {
+    float: left;
+    margin: 20px;
+}
+#social-icons div a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+footer img {
+    width: 25px;
+    margin-right: 10px;
+}

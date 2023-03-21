@@ -1,0 +1,69 @@
+#projects {
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 10px;
+}
+#projects li div {
+    width: 300px;
+    height: auto;
+    transition: 300ms;
+    padding: 5px 0px 10px 10px;
+    margin-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.308);
+    border-left: 1px solid rgba(0, 0, 0, 0.308);
+    border-right: 8px solid rgba(0, 0, 0, 0.308);
+    border-bottom: 8px solid rgba(0, 0, 0, 0.308);
+}
+#projects li div:hover {
+    background-color: rgba(0, 0, 0, 0.301);
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    margin-top: 14px;
+    margin-left: 4px;
+}
+#projects li div a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 300ms;
+}
+#projects li div a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+span {
+	display: block;
+	width: 300px;
+	height: 300px;
+	padding: 50;
+	justify-content: center;
+	transition: 600ms;
+}
+span div {
+	position: absolute;
+	top: 20%;
+	justify-content: center;
+	width: 200px;
+	height: 200px;
+}
+span div div {
+	border-radius: 50%;
+	border-top: 20px solid #bbbbbb;
+	border-right: 20px solid #bbbbbb;
+	border-left: 20px solid #008de9;
+	border-bottom: 20px solid #008de9;
+	list-style-type: none;
+	animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

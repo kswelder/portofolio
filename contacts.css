@@ -1,0 +1,21 @@
+main div {
+    display: grid;
+}
+#main-content-index div input {
+    margin-top: 10px;
+    background-color: white;
+    font-size: 15px;
+    font: bolder;
+    outline: none;
+    font-family: 'Courier New';
+    border-top: 1px solid rgb(95, 95, 95) ;
+    border-left: 1px solid rgb(95, 95, 95) ;
+    border-right: 4px solid rgb(95, 95, 95) ;
+    border-bottom: 4px solid rgb(95, 95, 95) ;
+}
+#send:active {
+    margin-top: 14px;
+    margin-left: 4px;
+    border-right: 2px solid rgb(95, 95, 95) ;
+    border-bottom: 2px solid rgb(95, 95, 95) ;
+}
